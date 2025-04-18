@@ -1,4 +1,4 @@
-yourdomain.com {
+oppg6.superduperdevops.digital {
     reverse_proxy webapp:80
     tls aminmb@uia.no
 }
