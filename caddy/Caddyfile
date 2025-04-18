@@ -1,0 +1,4 @@
+yourdomain.com {
+    reverse_proxy webapp:80
+    tls aminmb@uia.no
+}

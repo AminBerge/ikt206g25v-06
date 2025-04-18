@@ -1,0 +1,8 @@
+{
+	"status": "valid",
+	"contact": [
+		"mailto:aminmb@uia.no"
+	],
+	"termsOfServiceAgreed": true,
+	"location": "https://acme-staging-v02.api.letsencrypt.org/acme/acct/195781444"
+}
