@@ -9,8 +9,8 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./caddy/data:/data
-      - ./caddy/config:/config
+      - caddy_data:/data
+      - caddy_config:/config
       - ./caddy/Caddyfile:/etc/caddy/Caddyfile
     depends_on:
       - webapp
@@ -66,6 +66,8 @@ services:
 volumes:
   postgres_data:
   aspnet_data_protection_keys:
+  caddy_data:
+  caddy_config:
 networks:
   app_network:
     driver: bridge
