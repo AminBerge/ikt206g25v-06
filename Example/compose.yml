@@ -11,7 +11,8 @@ services:
     volumes:
       - caddy_data:/data
       - caddy_config:/config
-      - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ./caddy:/etc/caddy
+#      - ./caddy/Caddyfile:/etc/caddy/Caddyfile
     depends_on:
       - webapp
     networks:
